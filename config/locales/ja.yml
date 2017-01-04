@@ -1,0 +1,25 @@
+ja:
+  hello: "ハローワールド"
+  activerecord:
+    errors:
+      models:
+        user:
+          attributes:
+            name:
+              blank: ユーザー名は空ではいけません
+              taken: ユーザー名は既に利用されています
+              invalid: ユーザー名は半角英数のみ利用できます
+              too_long: ユーザー名は24文字までしようできます。
+              too_short: ユーザー名は最短で4文字です
+            email:
+              blank: メールアドレスが空です
+              taken: メールアドレスは既に利用されています
+            password:
+              blank: パスワードが空です
+              too_long: パスワードは24文字まで利用できます
+              too_short: パスワードは4文字まで利用できます
+            password_confirmation:
+              blank: 確認用パスワードが空です
+              confirmation: 確認用パスワードが一致しません
+            bio:
+              too_long: プロフィールは200文字までしか入力できません

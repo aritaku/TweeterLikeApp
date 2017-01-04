@@ -1,0 +1,1 @@
+json.partial! "user_s__no_stylesheets__skip_migrations/user_s__no_stylesheets__skip_migration", user_s__no_stylesheets__skip_migration: @user_s__no_stylesheets__skip_migration

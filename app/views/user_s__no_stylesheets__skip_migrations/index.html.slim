@@ -1,0 +1,19 @@
+h1 Listing user_s__no_stylesheets__skip_migrations
+
+table
+  thead
+    tr
+      th
+      th
+      th
+
+  tbody
+    - @user_s__no_stylesheets__skip_migrations.each do |user_s__no_stylesheets__skip_migration|
+      tr
+        td = link_to 'Show', user_s__no_stylesheets__skip_migration
+        td = link_to 'Edit', edit_user_s__no_stylesheets__skip_migration_path(user_s__no_stylesheets__skip_migration)
+        td = link_to 'Destroy', user_s__no_stylesheets__skip_migration, data: { confirm: 'Are you sure?' }, method: :delete
+
+br
+
+= link_to 'New User s  no stylesheets  skip migration', new_user_s__no_stylesheets__skip_migration_path

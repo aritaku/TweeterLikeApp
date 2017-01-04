@@ -1,0 +1,13 @@
+h1 Registrations#new
+p Find me in app/views/registrations/new.html.slim
+
+simple_form_for @user, url: registrations_path, method: :post do |f|
+  f.label :name
+  f.text_field :name
+  f.label :email
+  f.text_field :email
+  f.label :password
+  f.text_field :password
+  f.label :password_confirmation
+  f.text_field :password_confirmation
+  f.submit

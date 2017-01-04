@@ -1,0 +1,2 @@
+class UserSNoStylesheetsSkipMigration < ApplicationRecord
+end
