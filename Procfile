@@ -1,2 +1,1 @@
-web: bundle exec rails server -p $PORT
-worker: bundle exec rake jobs:worK
+web: bundle exec rails server -p 8080
