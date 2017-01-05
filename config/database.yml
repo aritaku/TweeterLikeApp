@@ -7,7 +7,7 @@ default: &default
 
   username:
   password:
-
+    
   host: localhost
 
 development:
@@ -24,3 +24,5 @@ test:
 production:
   <<: *default
   database: db/production
+  username: oiecrzfmztddbv
+  password: 7ad1688e5495a6de200f3c8c3e8759b08b27ba59994cf965bdd963684dad7e6c
