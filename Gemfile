@@ -15,17 +15,20 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'redis', '~> 3.0'
 gem 'bcrypt', '~> 3.1.7'
+gem 'rails-i18n'
 gem 'slim-rails'
 gem 'sorcery'
 gem 'bootstrap-sass'
 gem 'simple_form'
 gem 'devise'
+gem 'will_paginate'
 gem 'record_tag_helper', '~> 1.0'
 gem 'capistrano-rails', group: :development
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
+  gem 'factory_girl_rails', '~> 4.4.0'
 end
 
 group :development do
